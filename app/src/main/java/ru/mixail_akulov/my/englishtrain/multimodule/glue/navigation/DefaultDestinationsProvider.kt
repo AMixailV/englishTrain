@@ -27,6 +27,11 @@ class DefaultDestinationsProvider @Inject constructor(
                 iconRes = R.drawable.ic_home,
             ),
             NavTab(
+                destinationId = R.id.trainFragment,
+                title = context.getString(R.string.tab_train),
+                iconRes = R.drawable.ic_train,
+            ),
+            NavTab(
                 destinationId = R.id.profileFragment,
                 title = context.getString(R.string.tab_profile),
                 iconRes = R.drawable.ic_profile,

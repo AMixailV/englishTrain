@@ -5,6 +5,7 @@
     <string name="tab_orders">Orders</string>
     <string name="tab_profile">Profile</string>
     <string name="tab_home">Home</string>
+    <string name="tab_train">Train</string>
 
     <string name="title_catalog">Product Catalog</string>
     <string name="title_product_details">Details</string>
@@ -16,6 +17,7 @@
     <string name="title_filter">Filter</string>
     <string name="title_edit_profile">Edit Profile</string>
     <string name="title_home">Home</string>
+    <string name="title_train">Train</string>
     <string name="title_edit_quantity">Edit Quantity</string>
     <string name="title_create_order">Create Order</string>
     <string name="title_order_details">Order Details</string>

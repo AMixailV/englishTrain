@@ -54,7 +54,8 @@ buildscript {
                 SignIn: ":features:sign-in",
                 SignUp: ":features:sign-up",
                 Profile: ":features:profile",
-                Home: ":features:home"
+                Home: ":features:home",
+                Train: ":features:train"
             ],
         ]
     }

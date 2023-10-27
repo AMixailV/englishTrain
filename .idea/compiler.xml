@@ -12,6 +12,7 @@
       <module name="Feature_Modules.features.sign-in" target="11" />
       <module name="Feature_Modules.features.sign-up" target="11" />
       <module name="Feature_Modules.features.tabs" target="11" />
+      <module name="Feature_Modules.features.train" target="11" />
       <module name="Feature_Modules.navigation" target="11" />
       <module name="Feature_Modules.wiring" target="11" />
     </bytecodeTargetLevel>

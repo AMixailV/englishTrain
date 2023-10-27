@@ -34,6 +34,9 @@
         <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/My_EnglishTrain_multimodule/features/sign-up/src/main/res/layout/fragment_sign_up.xml" value="0.25052083333333336" />
         <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/My_EnglishTrain_multimodule/navigation/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/My_EnglishTrain_multimodule/navigation/src/main/res/layout/fragment_tabs.xml" value="0.25052083333333336" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/englishTrain/features/home/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/englishTrain/features/sign-in/src/main/res/layout/fragment_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/my/englishTrain/features/train/src/main/res/layout/fragment_train.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>

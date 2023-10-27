@@ -41,4 +41,10 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/trainFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.train.presentation.train.TrainFragment"
+        android:label="@string/title_train"
+        tools:layout="@layout/fragment_train" />
+
 </navigation>
