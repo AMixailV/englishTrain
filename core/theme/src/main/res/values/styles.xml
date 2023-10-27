@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EnglishTrainCore" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_dark</item>
+        <item name="colorSecondaryVariant">@color/orange_lite</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!--        <item name="textInputStyle">@style/GlobalTextInputStyle</item>-->
+        <!--        <item name="materialButtonStyle">@style/GlobalButtonStyle</item>-->
+    </style>
+
+    <!-- Text _________________________-->
+
+    <style name="text_eng_ravie">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/ravie</item>
+    </style>
+
+    <style name="textTitle_eng" parent="text_eng_ravie">
+        <item name="android:textSize">24sp</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="textTitle_profile" parent="textTitle_eng">
+        <item name="android:textColor">@color/orange_dark</item>
+    </style>
+
+    <style name="textTitle_learn" parent="textTitle_eng">
+        <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="text_positive" parent="text_eng_ravie">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="text_negative" parent="text_positive">
+        <item name="android:shadowColor">@color/red</item>
+    </style>
+
+    <style name="text_eng_settings" parent="textTitle_eng">
+        <item name="android:textColor">@color/green_lite</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_simple">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_params_profile">
+        <item name="android:textSize">@dimen/text_size_hint</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="text_settings">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space_min</item>
+    </style>
+
+    <!-- Fields ___________________________-->
+
+    <style name="field_input_text">
+        <item name="android:background">@drawable/form_yellow_black_r6</item>
+        <item name="android:textSize">@dimen/text_size_hint</item>
+        <item name="android:paddingStart">@dimen/space_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="field_input_numberVideo" parent="field_input_text">
+        <item name="android:background">@drawable/form_white_black_r6</item>
+        <item name="android:paddingStart">@dimen/space_min</item>
+    </style>
+
+    <!-- Buttons ___________________________-->
+
+    <style name="btn_eng_positive" parent="text_positive">
+        <item name="android:background">@drawable/form_btn_green</item>
+    </style>
+
+    <style name="btn_eng_negative" parent="text_negative">
+        <item name="android:background">@drawable/form_btn_green</item>
+    </style>
+
+    <style name="btn_settings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_settings</item>
+        <item name="android:backgroundTint">@color/green_lite</item>
+        <item name="android:layout_margin">@dimen/space_medium</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="btn_eng_choice" parent="text_negative">
+        <item name="android:background">@drawable/form_btn_yellow</item>
+    </style>
+
+    <!-- Forms ___________________________-->
+
+    <style name="container_form_recycler_lesson">
+        <item name="android:layout_marginTop">@dimen/margin_next</item>
+        <item name="android:background">@drawable/form_orange_yellow_r6</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="container_form_lesson_open">
+        <item name="android:layout_marginTop">@dimen/margin_next</item>
+        <item name="android:background">@drawable/form_orange_black_r6</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="container_form_recycler_into_lesson" parent="container_form_recycler_lesson">
+        <item name="android:background">@drawable/form_yellow_r16</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="container_form_item_lesson">
+        <item name="android:layout_marginTop">@dimen/margin_item</item>
+        <item name="android:background">@drawable/form_yellow_black_r16</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="container_form_item_train">
+        <item name="android:layout_marginTop">@dimen/margin_item</item>
+        <item name="android:background">@drawable/form_white_r6</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="container_text_settings" parent="text_eng_settings">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space_medium</item>
+        <item name="android:background">@drawable/form_orange_black_r6</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="container_text_settings_rus" parent="text_eng_settings">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/form_btn_yellow</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- CheckBox________________________________-->
+
+    <style name="checkBoxOrange" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/orange_dark</item>
+        <item name="colorControlActivated">@color/orange_dark</item>
+    </style>
+
+    <style name="checkBoxYellow" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+</resources>

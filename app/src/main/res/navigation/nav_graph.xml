@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.signin.presentation.signin.SignInFragment"
+        android:label="@string/title_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.signup.presentation.signup.SignUpFragment"
+        android:label="@string/title_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.navigation.presentation.TabsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_tabs"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.profile.presentation.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/editUsernameFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.profile.presentation.edit.EditProfileFragment"
+        android:label="@string/title_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.mixail_akulov.my.englishtrain.multimodule.home.presentation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
